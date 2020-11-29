@@ -14,60 +14,67 @@
 <!-- navigation bar -->
 <header class="uk-section-secondary uk-section-xsmall uk-light" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky" uk-grid> 
    	<div class="uk-width-expand uk-padding-remove">
-	<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-	<div class="uk-navbar-center">
-		<div class="uk-navbar-item uk-text-center uk-text-middle uk-margin-small-top">
-			<a href="#"><img src="./images/acm-logo.png" width="50" alt="" title="">
-			<p class="uk-text-bold">Compute<span>2020</span></p></a>
-        	<div>
-        </div>
-
-        <ul class="uk-navbar-nav uk-visible@m">
-	          <li><a href="http://www.acm-compute.in/2020/">Previous Conferences</a>
-	            <div class="uk-navbar-dropdown" uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
-	            	<ul class="uk-nav uk-navbar-dropdown-nav">
-	              		<li><a href=""><button class="uk-button uk-button-secondary uk-border-rounded">2018</button></a></li>
-	              		<li class="uk-nav-divider"></li>
-	              		<li><a href=""><button class="uk-button uk-button-secondary uk-border-rounded">2019</button></a></li>
-	              	</ul>
-	            </div>
-	          </li>
-	          <li><a href="#important-dates">Important Dates</a></li>
-	        <!--  <li><a href="#speakers">Speakers</a></li> -->
-			  <li><a href="">Committee</a></li>							
-			  <li><a href="#workshop">Workshop</a></li>
-	          <li><a href="#schedule">Schedule</a></li>
-		      <li><a href="#register">Registration</a></li>
-	          <li><a href="#venue">Calls</a>
-	            <div class="uk-navbar-dropdown" uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
-	            	<ul class="uk-nav uk-navbar-dropdown-nav">
-	              		<li><a href=""><button class="uk-button uk-button-secondary uk-border-rounded">Area of Focus</button></a></li>
-	              		<li class="uk-nav-divider"></li>
-	              		<li><a href=""><button class="uk-button uk-button-secondary uk-border-rounded">Abstract Format and Submission</button></a></li>
-	              	</ul>
-	           <!--   <a href="./local_files/COMPUTE19Brochure.pdf" target="_blank" rel="noopener">Download Call for abstract
-	                brochure</a>
-	              <a href="./pages/accepted-papers.html">Accepted Papers</a> -->
-	            </div>
-	          </li>
-	          <li><a href="#venue">Venue </a></li>
-	          <li><a href="#supporters">Sponsors</a></li>
-	          <li><a href="#contact">Contact</a></li>
-	      <!--    <li class="buy-tickets"><a href="./pages/registration.html">Register</a></li> -->
-        </ul>
+		<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+			<div class="uk-navbar-left">
+				<div class="uk-navbar-item uk-text-center uk-text-middle uk-margin-small-top">
+					<a href="#"><img src="./images/acm-logo.png" width="50" alt="" title="">
+					<p class="uk-text-bold">Compute<span>2020</span></p></a>
+				</div>
+			</div>
+			<div class="uk-navbar-right">
+				<ul class="uk-navbar-nav uk-visible@m">
+					<li><a href="http://www.acm-compute.in/2020/">Previous Conferences</a>
+						<div class="uk-navbar-dropdown" uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+							<ul class="uk-nav uk-navbar-dropdown-nav">
+								<li><a href=""><button class="uk-button uk-button-secondary uk-border-rounded">2018</button></a></li>
+								<li class="uk-nav-divider"></li>
+								<li><a href=""><button class="uk-button uk-button-secondary uk-border-rounded">2019</button></a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#important-dates">Important Dates</a></li>
+					<!--  <li><a href="#speakers">Speakers</a></li> -->
+					<!-- <li><a href="">Committee</a></li>							 -->
+					<li><a href="#workshop">Workshop</a></li>
+					<li><a href="#schedule">Schedule</a></li>
+					<li><a href="#register">Registration</a></li>
+					<li><a href="#venue">Calls</a>
+						<div class="uk-navbar-dropdown" uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+							<ul class="uk-nav uk-navbar-dropdown-nav">
+								<li><a href=""><button class="uk-button uk-button-secondary uk-border-rounded">Area of Focus</button></a></li>
+								<li class="uk-nav-divider"></li>
+								<li><a href=""><button class="uk-button uk-button-secondary uk-border-rounded">Abstract Format and Submission</button></a></li>
+							</ul>
+					<!--   <a href="./local_files/COMPUTE19Brochure.pdf" target="_blank" rel="noopener">Download Call for abstract
+							brochure</a>
+						<a href="./pages/accepted-papers.html">Accepted Papers</a> -->
+						</div>
+					</li>
+					<li><a href="#venue">Venue </a></li>
+					<li><a href="#supporters">Sponsors</a></li>
+					<li><a href="#contact">Contact</a></li>
+				<!--    <li class="buy-tickets"><a href="./pages/registration.html">Register</a></li> -->
+				</ul>
+			</div>
+		</nav>
     </div>   
-</nav>
-</div>
-<div class="uk-hidden@m uk-width-auto uk-padding-remove uk-margin-right uk-align-center ">
-   <a href="#offcanvas-usage" uk-toggle><span uk-navbar-toggle-icon></span></a>
-</div> 
+	<div class="uk-hidden@m uk-width-auto uk-padding-remove uk-margin-right uk-align-center ">
+		<a href="#offcanvas-usage" uk-toggle><span uk-navbar-toggle-icon></span></a>
+	</div> 
 </header>
       
 
 
 <!-- navigation bar end -->
 
-
+<!-- For creating a to-up icon -->
+<!-- <a href="" uk-sticky="top: #about;" class="uk-position-bottom-right">
+	<svg height="50" width="50" class="uk-position-bottom-right uk-position-fixed">
+		<circle cx="25" cy="25" r="20" stroke="none" stroke-width="1.5" fill="white" />
+		<line x1="12.5" y1="32" x2="25" y2="13.25" style="stroke:#1e87f0;stroke-width:2.5" />
+        <line x1="25" y1="13.25" x2="37.5" y2="32" style="stroke:#1e87f0;stroke-width:2.5" />
+	</svg>
+</a> -->
 
 
 <div class="uk-section uk-section-muted uk-align-center uk-text-center uk-margin-remove-top">
@@ -119,7 +126,7 @@
 
     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
 
-        <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+        <ul class="uk-slider-items uk-child-width-1-1@s uk-grid">
             <li>
 				In view of the prevailing pandemic, 
 				this conference will be held virtually. 
@@ -164,6 +171,7 @@
 			<div class="uk-grid-match uk-child-width-1-2 uk-margin-large-top" uk-grid>
 				<div class="">
 				<h2>ABOUT<br><b>COMPUTE 2020</b></h2>
+				<hr>
 				<p class="uk-text-large">ACM-India announces the 13th annual COMPUTE conference at Visvesvaraya National Institute of Technology Nagpur, Maharashtra, India from December 09<sup>th</sup> - 12<sup>th</sup> 2020. Since 2018, ACM-India has decided to focus the theme of COMPUTE towards improving the quality
 				  of computing education in the country.  This is the III year of this thematic symposium.</p>
 				</div>
@@ -207,7 +215,7 @@
 	<div class="uk-padding-small">
 		<div class="uk-container uk-text-center uk-margin-large">
 			<h2 class="uk-text-bold">Important Dates</h2>
-
+			<hr>
 			<table class="uk-table uk-table-hover uk-table-divider">
 				<thead>
 					<tr>
@@ -257,21 +265,38 @@
 
 <!-- Workshop Section -->
 
-<div id="workshop" class="uk-section uk-section-muted uk-margin">
+<div id="workshop" class="uk-section uk-section-large uk-section-muted uk-margin-large">
 	<div class="uk-container uk-text-center">
 		<div>
-		<h2>Pre- ACM COMPUTE 2020 workshop</h2>
-		<p>The workshop is part of COMPUTE 2020, organised by ACM India. Participants will need to register for ACM India COMPUTE 2020.</p>
+		<h2 class="uk-text-bold">Pre-ACM COMPUTE 2020 workshop</h2>
+		<hr>
+		<p class="uk-text-meta">Note : This workshop is a part of COMPUTE 2020, organised by ACM India. Participants will need to register for ACM India COMPUTE 2020.</p>
 
-		<h4>Algodynamics: Teaching Algorithms using Interactive Transition Systems</h4>
-		<h4>MOTIVATION</h4>
-		<p style="text-align:justify;">Mastering algorithms continues to be a challenge for many students of computer science. The automated nature of algorithms limits the student to tracing the algorithm or seeing its animated execution. This interaction is passive. Active interaction with the algorithm would allow the student to `drive' the algorithm towards solving a problem. Of course, at this point, we no longer have an algorithm, but an interactive system that, however, still retains the core elements of the algorithm's machinery.<br><br>
-		We propose Algodynamics, an approach to teaching algorithms as interactive transition systems. In the pedagogy of the Algodynamics approach, an algorithm is incrementally designed via a series of interactive systems. The interactions isolate the essential `moving parts' of the algorithm and operations that actually cause the parts to move, allowing the student to `drive' the interactive system and refine it till she arrives at an algorithm, a transition system that is completely automated. You can find more details on Algodynamics website (https://algodynamics.gitlab.io).<br><br>
-		The workshop is meant for computer science teachers. The workshop will introduce the main ideas of Algodynamics through a series of examples. These examples will be drawn from data structures (lists, trees and graphs).   This workshop will introduce a hands-on approach to teaching algorithms that develops students' abilities beyond simply tracing algorithms to actually designing algorithms.  This allows students to assemble an algorithm from basic building blocks and helps them understand why the algorithm is designed the way it is.  The emphasis will be not so much on programming or analysis of the algorithms, but incrementally gaining a good understanding of the inner workings of the algorithms and their design.
-		The workshop will be interactive. Participants will work with a series of transition systems and `hand-execute' them. 
-		<br><br>
-		The workshop will include small assignments, discussions and questions and answers during the presentations. The major examples covered in the workshop (iteration, recursion and graph traversal) will be accompanied by online experiments.
-		The results of the workshop along with future directions for research and implementation will be presented during Day 4 of Compute 2020.
+		<h3>Algodynamics: Teaching Algorithms using Interactive Transition Systems</h3>
+		<h4>Motivation</h4>
+		<p style="text-align:justify;">
+			Mastering algorithms continues to be a challenge for many students of computer science. 
+			The automated nature of algorithms limits the student to tracing the algorithm or seeing its animated execution. 
+			This interaction is passive. Active interaction with the algorithm would allow the student to `drive' the algorithm towards solving a problem. 
+			Of course, at this point, we no longer have an algorithm, but an interactive system that, however, still retains the core elements of the algorithm's machinery.
+			<br><br>
+			We propose Algodynamics, an approach to teaching algorithms as interactive transition systems. 
+			In the pedagogy of the Algodynamics approach, an algorithm is incrementally designed via a series of interactive systems. 
+			The interactions isolate the essential `moving parts' of the algorithm and operations that actually cause the parts to move, 
+			allowing the student to `drive' the interactive system and refine it till she arrives at an algorithm, 
+			a transition system that is completely automated. You can find more details on <a href="https://algodynamics.gitlab.io">Algodynamics website</a>.
+			<br><br>
+			The workshop is meant for computer science teachers. 
+			The workshop will introduce the main ideas of Algodynamics through a series of examples. 
+			These examples will be drawn from data structures (lists, trees and graphs). 
+			This workshop will introduce a hands-on approach to teaching algorithms that develops students' abilities beyond simply tracing algorithms to actually designing algorithms.  
+			This allows students to assemble an algorithm from basic building blocks and helps them understand why the algorithm is designed the way it is.  
+			The emphasis will be not so much on programming or analysis of the algorithms, but incrementally gaining a good understanding of the inner workings of the algorithms and their design.
+			The workshop will be interactive. Participants will work with a series of transition systems and `hand-execute' them. 
+			<br><br>
+			The workshop will include small assignments, discussions and questions and answers during the presentations. 
+			The major examples covered in the workshop (iteration, recursion and graph traversal) will be accompanied by online experiments.
+			The results of the workshop along with future directions for research and implementation will be presented during Day 4 of Compute 2020.
 		</p>
 		</div>
 
@@ -280,20 +305,24 @@
 		</div>
 		<table class="uk-table uk-table-divider">
 			<tbody>
-			<tr>
-				<td><a href="https://faculty.iiit.ac.in/~venkatesh.choppella/">Venkatesh Choppella, IIIT Hyderabad</a></td>
-				<td><a href="https://serc.iiit.ac.in/personal/k.viswanath">Viswanath Kasturi, IIIT Hyderabad</a></td>
-			</tr>
-			<tr>
-				<td><a href="https://in.linkedin.com/in/mrityunjaykumar">Mrityunjay Kumar, IIIT Hyderabad</a></td>
-				<td><a href="https://in.linkedin.com/in/ojas-mohril-973984a2" class="text-success">Ojas Mohril, IIIT Hyderabad</a></td>
-			</tr>
+				<tr>
+					<td class="uk-text-right"><a href="https://faculty.iiit.ac.in/~venkatesh.choppella/">Venkatesh Choppella, IIIT Hyderabad</a></td>
+					<td class="uk-text-left"><a href="https://in.linkedin.com/in/mrityunjaykumar">Mrityunjay Kumar, IIIT Hyderabad</a></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="uk-text-right"><a href="https://serc.iiit.ac.in/personal/k.viswanath">Viswanath Kasturi, IIIT Hyderabad</a></td>
+					<td class="uk-text-left"><a href="https://in.linkedin.com/in/ojas-mohril-973984a2">Ojas Mohril, IIIT Hyderabad</a></td>
+					<td></td>
+				</tr>
 			</tbody>
 		</table>
 
+		<hr>
 
 
 		<!-- nav thingy -->
+		<h4>Workshop Schedule</h4>
 		<div class="uk-grid-match uk-child-width-1-2 uk-margin-large-left uk-margin-large-right uk-margin-large-top" uk-grid uk-switcher="animation: uk-animation-fade; toggle: > *">
 		    <div><button class="uk-button uk-button-default uk-border-rounded" type="button">03<sup>rd</sup> December</button></div>
 		    <div><button class="uk-button uk-button-default uk-border-rounded" type="button">04<sup>th</sup> December</button></div>
@@ -301,41 +330,47 @@
 
 		<ul class="uk-switcher uk-margin uk-grid-small uk-align-center uk-margin-large-left uk-margin-large-right" uk-grid>
     		<li>
-
+				<br>
+				<h5>Teaching Algorithms using Interactive Transition Systems, Day 1 (Thursday)</h5>
     			<table class="uk-table uk-table-divider uk-table-hover">
     				<thead>
     					<tr>
-    						<td><p>Day 1</p>(Thursday)</td>
-    						<td><h4>Teaching Algorithms using Interactive Transition Systems</h4></td>
+    						<th class="uk-text-left">Time</td>
+    						<th class="uk-text-right">Event</th>
     					</tr>
     				</thead>
-    					<tbody>
+    				<tbody>
     					<tr>
-    						<td>2:00 PM</td>
-    						<td>PreTest</td>
+    						<td class="uk-text-left">2:00 PM</td>
+    						<td class="uk-text-right">PreTest</td>
     					</tr>
     					<tr>
-    						<td>2:30 PM</td>
-    						<td><p>Transition systems</p><span>Motivation, vocabulary and definitions. Examples </span></td>
+    						<td class="uk-text-left">2:30 PM</td>
+    						<td class="uk-text-right"><p>Transition systems</p><span>Motivation, vocabulary and definitions. Examples </span></td>
     					</tr>
     					<tr>
-    						<td></td>
-    						<td><p>Tea Break</p></td>
+    						<td ></td>
+    						<td class="uk-text-right"><p>Tea Break</p></td>
     					</tr>
     					<tr>
-    						<td>3:30 PM</td>
-    						<td><p>Algodynamics </p>
-			   <span>Interactive vs. Algorithmic problem solving. Successive refinement. Iterative sorting algorithms (Bubble Sort) </span></td>
+    						<td class="uk-text-left">3:30 PM</td>
+    						<td class="uk-text-right">
+								<p>Algodynamics </p>
+			   					<span>
+									Interactive vs. Algorithmic problem solving.
+									Successive refinement. 
+									Iterative sorting algorithms (Bubble Sort) 
+								</span>
+							</td>
+    					</tr>
+    					<tr>
+    						<td class="uk-text-left">5:30 PM</td>
+    						<td class="uk-text-right"><p>Recap and Discussion</p></td>
     					</tr>
 
     					<tr>
-    						<td>5:30 PM</td>
-    						<td><p>Recap and Discussion</p></td>
-    					</tr>
-
-    					<tr>
-    						<td>6:00 PM</td>
-    						<td>EOD</td>
+    						<td class="uk-text-left">6:00 PM</td>
+    						<td class="uk-text-right">EOD</td>
     					</tr>
     				</tbody>
     			</table>
@@ -344,40 +379,41 @@
     		</li>
 
     		<li>
-
+				<br>
+				<h5>Teaching Algorithms using Interactive Transition Systems, Day 2 (Friday)</h5>
     			<table class="uk-table uk-table-divider uk-table-hover">
     				<thead>
     					<tr>
-    						<td><p>Day 2</p>(Friday)</td>
-    						<td><h4>Teaching Algorithms using Interactive Transition Systems</h4></td>
+    						<th class="uk-text-left">Time</th>
+    						<th class="uk-text-right">Event</th>
     					</tr>
     				</thead>
     					<tbody>
     					<tr>
-    						<td>2:00 PM</td>
-    						<td><p>Recursive Algorithms</p><span>Algorithms on trees, Mergesort </span></td>
+    						<td class="uk-text-left">2:00 PM</td>
+    						<td class="uk-text-right"><p>Recursive Algorithms</p><span>Algorithms on trees, Mergesort </span></td>
     					</tr>
     					<tr>
-    						<td>3:00 PM</td>
-    						<td><p>Graph Traversals </p><span>Depth first and Breadth First graph traversal </span></td>
+    						<td class="uk-text-left">3:00 PM</td>
+    						<td class="uk-text-right"><p>Graph Traversals </p><span>Depth first and Breadth First graph traversal </span></td>
     					</tr>
     					<tr>
-    						<td></td>
-    						<td><p>Tea Break</p></td>
+    						<td class="uk-text-left"></td>
+    						<td class="uk-text-right"><p>Tea Break</p></td>
     					</tr>
     					<tr>
-    						<td>4:15 PM</td>
-    						<td><p>Implementation</p><span>From Transition Systems to their (Python) Implementation </span></td>
-    					</tr>
-
-    					<tr>
-    						<td>5:00 PM</td>
-    						<td><p>Recap and Post-workshop questionnaire</p></td>
+    						<td class="uk-text-left">4:15 PM</td>
+    						<td class="uk-text-right"><p>Implementation</p><span>From Transition Systems to their (Python) Implementation </span></td>
     					</tr>
 
     					<tr>
-    						<td>6:00 PM</td>
-    						<td>EOD</td>
+    						<td class="uk-text-left">5:00 PM</td>
+    						<td class="uk-text-right"><p>Recap and Post-workshop questionnaire</p></td>
+    					</tr>
+
+    					<tr>
+    						<td class="uk-text-left">6:00 PM</td>
+    						<td class="uk-text-right">EOD</td>
     					</tr>
     				</tbody>
     			</table>
@@ -396,162 +432,75 @@
 
 
 <!-- Schedule Section -->
-<div id="schedule" class="uk-section uk-section-muted uk-margin">
+<div id="schedule" class="uk-section uk-section-large uk-section-muted uk-margin">
 	<div class="uk-container uk-text-center">
 		<div>
-			<h2>Event Schedule</h2>
-			*Hovering over the photo will show a short bio. 
-		  Hovering over the title will show Abstract. 
-		  Clicking on the name will open a link to the homepage.*
+			<h2 class="uk-text-bold">Event Schedule</h2>
+			<hr>
 		</div>
 
 
 	<!-- nav thingy -->
 	<div class="uk-grid-match uk-child-width-1-4 uk-margin-large-left uk-margin-large-right uk-margin-large-top" uk-grid uk-switcher="animation: uk-animation-fade; toggle: > *">
-	    <div><button class="uk-button uk-button-default uk-border-rounded" type="button">09<sup>th</sup> December</button></div>
-	    <div><button class="uk-button uk-button-default uk-border-rounded" type="button">10<sup>th</sup> December</button></div>
-	    <div><button class="uk-button uk-button-default uk-border-rounded" type="button">11<sup>th</sup> December</button></div>
-	    <div><button class="uk-button uk-button-default uk-border-rounded" type="button">12<sup>th</sup> December</button></div>
+	    <div><button class="uk-button uk-button-default uk-border-rounded uk-text-truncate" type="button">09<sup>th</sup> December</button></div>
+	    <div><button class="uk-button uk-button-default uk-border-rounded uk-text-truncate" type="button">10<sup>th</sup> December</button></div>
+	    <div><button class="uk-button uk-button-default uk-border-rounded uk-text-truncate" type="button">11<sup>th</sup> December</button></div>
+	    <div><button class="uk-button uk-button-default uk-border-rounded uk-text-truncate" type="button">12<sup>th</sup> December</button></div>
 	</div>
 
 	<ul class="uk-switcher uk-margin uk-grid-small uk-align-center uk-margin-large-left uk-margin-large-right" uk-grid>
 		<li>
+			<br>
+			<h4>Day 1, Wednesday 09<sup>th</sup> December</h4>
 			<table class="uk-table uk-table-divider uk-table-hover">
     				<thead>
     					<tr>
-    						<td><p>Day 1</p>(Wednesday)</td>
-    						<td><h4>Inaugural, Awardee Talk, Workshop</h4></td>
+    						<th class="uk-text-left">Time</th>
+    						<th class="uk-text-right">Event</th>
     					</tr>
     				</thead>
     					<tbody>
     					<tr>
-    						<td>09:45 AM</td>
-    						<td>
-	    						<h4>Inaugral Session</h4>
-
-	    						<ul class="uk-list" uk-margin>
-
-								    <li>
-								    	<div><img class="uk-border-circle" src="./images/viraj.png" alt="Viraj Kumar" width="100"></div>
-								    	<div>
-								    	<a href="https://www.dsu.edu.in/dr-viraj-kumar" target="_blank" rel="noopener">Viraj Kumar (PC Co-chair)</a><br>Dayananda Sagar University, Bengaluru
-								    	</div>
-								    </li>
-								    <li>
-								    	<div><img class="uk-border-circle" src="./images/harista.jpg" alt="Jayant Harista" width="100"></div>
-								    	<div>
-								    		<a href="https://dsl.cds.iisc.ac.in/~haritsa/" target="_blank" rel="noopener">Jayant Haritsa</a>
-								    		<br>
-								    		President, ACM India Council<br>IISc Bengaluru
-								    	</div>
-								    </li>
-								    
-
-								    <li>
-								    	<div><img class="uk-border-circle" src="./images/uad.jpg" alt="Umesh Deshpande" width="100"></div>
-								    	<div>
-								    		<a href="http://cse.vnit.ac.in/people/uadeshpande/" target="_blank" rel="noopener">Umesh Deshpande (OC Chair)</a>
-								    		<br>
-								    		VNIT Nagpur
-								    	</div>
-								    </li>
-								    
-
-								    <li>
-								    	<div><img class="uk-border-circle" src="./images/padole.jpg" alt="Pramod Padole" width="100"></div>
-								    	<div>
-								    		<a href="http://mec.vnit.ac.in/people/pmpadole/" target="_blank" rel="noopener">Pramod Padole  (Director, VNIT)</a>
-								    		<br>
-								    		VNIT Nagpur
-								    	</div>
-								    </li>
-								</ul>
-
-
-
-
-    						</td>
-    					</tr>
-    					<tr>
-    						<td>10:30 AM</td>
-    						<td>
-	    						<h4><a href="https://india.acm.org/awards/about-outstanding-contribution-to-computing-education-award">Talk by ACM India Outstanding Contribution to Computing Education Awardee</a> </h4>
-
-	    						<ul class="uk-list" uk-margin>
-
-								    <li>
-								    	<div><img class="uk-border-circle" src="./images/sridhar.jpg" alt="" width="100"></div>
-								    	<div>
-								    	<a href="" uk-tooltip="Abstract- In this talk I will start with discussing the levels in moving from teaching courses to educational research. I will present examples of work at each level and requirements for an instructor to transition from one level to another. This may be useful for instructors interested in the scholarship of teaching and learning. I will then discuss some opportunities for computing education research in India, and corresponding research methodologies. This may be useful for practicing instructors as well as students entering the field. I will conclude with some principles for scaling individual efforts to multi-institutional projects.">Computing education research: Opportunities in India</a>
-								    	<br>
-								    	<a href="https://www.cse.iitb.ac.in/~sri/" target="_blank" rel="noopener">Sridhar Iyer</a><br>IIT Bombay
-								    	</div>
-								    </li>
-								 </ul>
-
+    						<td class="uk-text-left">09:45 AM</td>
+    						<td class="uk-text-right uk-table-link">
+								<a href="#inaugurators" class="uk-link-reset">
+									Inaugral Session
+								</a>
 							</td>
     					</tr>
     					<tr>
-    						<td>11:30</td>
-    						<td>
-	    						<h4 uk-tooltip="Abstract of the workshop- Many educators and scientists support the view that critical reflection is a necessary characteristic of self-driven successful teachers. Critical reflection enables the teachers to understand their students and dynamic learning needs better and improve their learning performances. In this workshop, we would provide hands-on training to the CS teachers on classroom action research as a formal tool to perform critical reflections.  The workshop would cover the following topics-  
-	    						(1)Critical reflection for CS teachers. 
-	    						(2) Action research as a tool to do critical reflection. 
-	    						(3) Converting ideas to formal research. 
-	    						(4) Resources for further action research. 
-	    						Due to COVID-19 travel restrictions, this would be an online workshop.">Workshop on Designing &amp; Conducting Research Studies Part 1</h4>
-
-	    						<ul class="uk-list" uk-margin>
-
-								    <li>
-								    	<div><a href="https://sites.google.com/view/actionresearchworkshop/team"> <img class="uk-border-circle" src="./images/shitanshu.jpg" alt="" width="100" title="*Bio and photos can be found on the workshop homepage here:*https://sites.google.com/view/actionresearchworkshop/team"></a></div>
-
-								    	<div>
-								    	<a href="https://my.vanderbilt.edu/shitanshu/" target="_blank" rel="noopener">Shitanshu Mishra</a><br>
-								    	Vanderbilt University
-								    	<br>
-								    	IIT Bombay
-								    	</div>
-								    </li>
-								 </ul>
-
+    						<td class="uk-text-left">10:30 AM</td>
+							<td class="uk-text-right uk-table-link">
+								<a href="#acm_awardee" class="uk-link-reset">
+									Talk by ACM India Awardee
+								</a>
 							</td>
     					</tr>
     					<tr>
-    						<td>12:30 PM</td>
-    						<td><h4>Lunch Break</h4></td>
+    						<td class="uk-text-left">11:30 AM</td>
+							<td class="uk-text-right uk-table-link">
+								<a href="#workshop_speaker" class="uk-link-reset">
+									Workshop on Designing &amp; Conducting Research Studies Part 1
+								</a>
+							</td>
+    					</tr>
+    					<tr>
+    						<td class="uk-text-left">12:30 PM</td>
+    						<td class="uk-text-right">Lunch Break</td>
     					</tr>
 
     					<tr>
-    						<td>02:30</td>
-    						<td>
-	    						<h4 uk-tooltip="Abstract of the workshop- Many educators and scientists support the view that critical reflection is a necessary characteristic of self-driven successful teachers. Critical reflection enables the teachers to understand their students and dynamic learning needs better and improve their learning performances. In this workshop, we would provide hands-on training to the CS teachers on classroom action research as a formal tool to perform critical reflections.  The workshop would cover the following topics-  
-	    						(1)Critical reflection for CS teachers. 
-	    						(2) Action research as a tool to do critical reflection. 
-	    						(3) Converting ideas to formal research. 
-	    						(4) Resources for further action research. 
-	    						Due to COVID-19 travel restrictions, this would be an online workshop.">Workshop on Designing &amp; Conducting Research Studies Part 2</h4>
-
-	    						<ul class="uk-list" uk-margin>
-
-								    <li>
-								    	<div><a href="https://sites.google.com/view/actionresearchworkshop/team"> <img class="uk-border-circle" src="./images/shitanshu.jpg" alt="" width="100" title="*Bio and photos can be found on the workshop homepage here:*https://sites.google.com/view/actionresearchworkshop/team"></a></div>
-
-								    	<div>
-								    	<a href="https://my.vanderbilt.edu/shitanshu/" target="_blank" rel="noopener">Shitanshu Mishra</a><br>
-								    	Vanderbilt University
-								    	<br>
-								    	IIT Bombay
-								    	</div>
-								    </li>
-								 </ul>
-
+    						<td class="uk-text-left">02:30 AM</td>
+							<td class="uk-text-right uk-table-link">
+								<a href="#workshop_speaker" class="uk-link-reset">
+									Workshop on Designing &amp; Conducting Research Studies Part 1
+								</a>
 							</td>
     					</tr>
 
     					<tr>
-    						<td>6:00 PM</td>
-    						<td><h4>End of Day - 1</h4></td>
+    						<td class="uk-text-left">06:00 PM</td>
+    						<td class="uk-text-right">End of Day 1</td>
     					</tr>
     				</tbody>
     			</table>
@@ -571,50 +520,219 @@
 
 <!-- Schedule Section end -->
 
+<!-- Guests Section -->
+<div id="guests" class="uk-section uk-section-large uk-section-muted uk-margin-large">
+	<div class="uk-container uk-text-center">
+		<h2 class="uk-text-bold">Guests</h2>
+		<hr>
+		<p class="uk-text-meta">
+			Note: Hovering over the photo will show a short introduction to the contents that'll be presented by the guest. 
+			Clicking on the name will open a link to the homepage of the guest.
+		</p>
+		<!-- Inaugurator's area -->
+		<div id="inaugurators" class="uk-padding-small">
+			<h3>Inaugurators</h3>
+			<div class="uk-child-width-expand@s" uk-grid>
+				<div class="uk-card uk-card-default uk-margin-medium-left uk-padding-remove">
+					<div class="uk-card-media-top">
+						<img src="./images/viraj.png" alt="Dr. Viraj Kumar" class="uk-border-circle uk-align-center uk-padding-small" width="200" height="200">
+					</div>
+					<div class="uk-card-body uk-text-center">
+						<h4 class="uk-link-heading">
+							<a href="https://www.dsu.edu.in/dr-viraj-kumar" target="_blank" rel="noopener">
+								Viraj Kumar
+							</a>
+						</h4>
+						<p>
+							PC Co-chair
+							<br>
+							Dayananda Sagar University, Bengaluru
+						</p>
+					</div>
+				</div>
+				<div class="uk-card uk-card-default uk-margin-small-left uk-padding-remove">
+					<div class="uk-card-media-top">
+						<img class="uk-border-circle uk-align-center uk-padding-small" src="./images/harista.jpg" alt="Jayant Harista" width="200" height="200">
+					</div>
+					<div class="uk-card-body uk-text-center">
+						<h4 class="uk-link-heading">
+							<a href="https://dsl.cds.iisc.ac.in/~haritsa/" target="_blank" rel="noopener">
+								Jayant Haritsa
+							</a>
+						</h4>
+						<p>
+							President, ACM India Council
+							<br>
+							IISc Bengaluru
+						</p>
+					</div>
+				</div>
+				<div class="uk-card uk-card-default uk-margin-small-left uk-padding-remove">
+					<div class="uk-card-media-top">
+						<img class="uk-border-circle uk-align-center uk-padding-small" src="./images/ud.png" alt="Umesh Deshpande" width="200" height="200">
+					</div>
+					<div class="uk-card-body uk-text-center">
+						<h4 class="uk-link-heading">
+							<a href="http://cse.vnit.ac.in/people/uadeshpande/" target="_blank" rel="noopener">
+								Umesh Deshpande
+							</a>
+						</h4>
+						<p>
+							OC Chair
+							<br>
+							VNIT Nagpur
+						</p>
+					</div>
+				</div>
+				<div class="uk-card uk-card-default uk-margin-small-left uk-padding-remove">
+					<div class="uk-card-media-top">
+						<img class="uk-border-circle uk-align-center uk-padding-small" src="./images/padole.jpg" alt="Pramod Padole" width="200" height="200">
+					</div>
+					<div class="uk-card-body uk-text-center">
+						<h4 class="uk-link-heading">
+							<a href="http://mec.vnit.ac.in/people/pmpadole/" target="_blank" rel="noopener">
+								Pramod Padole
+							</a>
+						</h4>
+						<p>
+							Director
+							<br>
+							VNIT Nagpur
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End of Inaugurator's area -->
+		<hr>
+		<!-- ACM Awardee and Workshop Speaker area-->
+		<div class="uk-padding-small" uk-height-match uk-grid>
+			<!-- ACM awardee area -->
+			<div class="uk-width-1-4"></div>
+			<div id="acm_awardee" class="uk-width-1-4">
+				<h3 class="uk-link-heading">
+					<a href="https://india.acm.org/awards/about-outstanding-contribution-to-computing-education-award">
+						ACM Awardee
+					</a>
+				</h3>
+				<div class="uk-card uk-card-default uk-margin-small-left uk-padding-remove">
+					<div class="uk-card-media-top">
+						<a href="" uk-tooltip="In my talk I will start with discussing the levels in moving from teaching courses to educational research. 
+							I will present examples of work at each level and requirements for an instructor to transition from one level to another. 
+							This may be useful for instructors interested in the scholarship of teaching and learning. 
+							I will then discuss some opportunities for computing education research in India, and corresponding research methodologies. 
+							This may be useful for practicing instructors as well as students entering the field. 
+							I will conclude with some principles for scaling individual efforts to multi-institutional projects.">
+							<img class="uk-border-circle uk-align-center uk-padding-small" src="./images/sridhar.jpg" alt="Sridher Iyer" width="200" height="200">
+						</a>
+					</div>
+					<div class="uk-card-body uk-text-center">
+						<h4 class="uk-link-heading">
+							<a href="https://www.cse.iitb.ac.in/~sri/" uk-tooltip="ACM India Outstanding Contribution to Computing Education Awardee" target="_blank" rel="noopener">
+								Sridhar Iyer
+							</a>	
+						</h4>
+						<p>
+							IIT Bombay
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End of ACM awardee area -->
+			<!-- Workshop master area -->
+			<div id="workshop_speaker" class="uk-width-1-4">
+				<h3>Workshop Speaker</h3>
+				<div class="uk-card uk-card-default uk-margin-small-left uk-padding-remove">
+					<div class="uk-card-media-top">
+						<a href="https://sites.google.com/view/actionresearchworkshop/team" target="_blank" 
+						uk-tooltip="Many educators and scientists support the view 
+						that critical reflection is a necessary characteristic of self-driven successful teachers.
+						Critical reflection enables the teachers to understand their students and dynamic learning 
+						needs better and improve their learning performances. In this workshop, we would provide 
+						hands-on training to the CS teachers on classroom action research as a formal tool to
+						perform critical reflections. Hence my workshop will cover the topics like
+						(1) Critical reflection for CS teachers.
+						(2) Action research as a tool to do critical reflection. 
+						(3) Converting ideas to formal research. 
+						(4) Resources for further action research. 
+						Due to COVID-19 travel restrictions, this will be an online workshop.
+						">
+							<img class="uk-border-circle uk-align-center uk-padding-small" src="./images/shitanshu.jpg" alt="Shitanshu" width="200" height="200">
+						</a>
+					</div>
+					<div class="uk-card-body uk-text-center">
+						<h4 class="uk-link-heading">
+							<a href="https://my.vanderbilt.edu/shitanshu/" uk-tooltip="IIT Bombay Alumni" target="_blank" rel="noopener">
+								Shitanshu Mishra
+							</a>
+						</h4>
+						<p>
+							Vanderbilt University
+							<!-- <br> -->
+							<!-- IIT Bombay -->
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="uk-width-1-4"></div>
+			<!-- End of workshop master area -->
+		</div>
+		<!-- End of ACM Awardee and Workshop Speaker area -->
+	</div>
+</div>
+<!-- Guests Section end -->
 
 <!-- Registration Section -->
 
-<div id="register" class="uk-section uk-section-muted uk-margin">
+<div id="register" class="uk-section uk-section-large uk-section-muted uk-margin-large">
 	<div class="uk-container uk-text-center">
-		<div><h2>Registration</h2></div>
-
-		<div class="uk-child-width-1-4@m uk-grid-small uk-grid-match uk-margin-large-top" uk-grid>
+		<div>
+			<h2 class="uk-text-bold">Registration</h2>
+			<hr>
+		</div>
+		<div class="uk-flex uk-flex-center" uk-grid>
 			<div></div>
 		    <div class="uk-margin-left">
 		        <div class="uk-card uk-card-default uk-card-body">
-		            <div  class="uk-card-title"><h3>ACM Compute 2020</h3>
-		            <h5 class="uk-tile uk-tile-secondary uk-padding-small" style="color:white">Domestic Delegates</h5></div>
+		            <div  class="uk-card-title">
+						<h5 class="uk-tile uk-tile-secondary uk-padding-small" style="color:white">
+							Domestic Delegates
+						</h5>
+					</div>
 		            <p>
 		            	<ul class="uk-list">
-		            		<li class="uk-text-bold">Fees Towards Registration</li>
-		            		<li>Rs. 300 /-</li>
-		            		<li class="uk-text-bold">GST</li>
-		            		<li>Rs. 54 /-</li>
-		            		<li class="uk-text-bold">Total Fees</li>
-		            		<li>Rs. 354 /-</li>
+		            		<li class="uk-text-bold">Registration Fees :</li>
+		            		<li>&#x20b9; 300/-</li>
+		            		<li class="uk-text-bold">GST :</li>
+		            		<li>&#x20b9; 54/-</li>
+		            		<li class="uk-text-bold">Total Fees :</li>
+		            		<li>&#x20b9; 354/-</li>
 		            	</ul>
 		            </p>
-		            <button class="uk-button uk-button-primary uk-border-rounded"> PAY AND REGISTER</button>
+		            <button class="uk-button uk-button-primary uk-border-rounded">PAY AND REGISTER</button>
 		        </div>
 		    </div>
 		    <div class="uk-margin-left">
 		        <div class="uk-card uk-card-default uk-card-body">
-		            <div  class="uk-card-title"><h3>ACM Compute 2020</h3>
-		            	<h5 class="uk-tile uk-tile-secondary uk-padding-small" style="color:white">Foreign Delegates</h5></div>
+		            <div  class="uk-card-title">
+						<h5 class="uk-tile uk-tile-secondary uk-padding-small" style="color:white">
+							Foreign Delegates
+						</h5>
+					</div>
 		            <p>
 		            	<ul class="uk-list">
-		            		<li class="uk-text-bold">Fees Towards Registration</li>
-		            		<li>US. $10 /-</li>
-		            		<li class="uk-text-bold">Taxes</li>
+		            		<li class="uk-text-bold">Registration Fees :</li>
+		            		<li>$ 10/-</li>
+		            		<li class="uk-text-bold">Taxes :</li>
 		            		<li>Included in Fees</li>
-		            		<li class="uk-text-bold">Total Fees</li>
-		            		<li>US. $10 /-</li>
+		            		<li class="uk-text-bold">Total Fees :</li>
+		            		<li>$ 10/-</li>
 		            	</ul>
 		            </p>
 		            <button class="uk-button uk-button-primary uk-border-rounded"> PAY AND REGISTER</button>
 		        </div>
 		    </div>
-		    <div class="uk-margin-left"></div>
+			<div></div>
 		</div>
 
 
@@ -628,15 +746,19 @@
 
 <!-- Venue Section -->
 
-<div id="venue" class="uk-section uk-section-muted uk-margin">
+<div id="venue" class="uk-section uk-section-large uk-section-muted uk-margin">
 	<div class="uk-container uk-text-center">
-		<div><h2>Event Venue</h2>
-			<p>In view of the prevailing pandemic, this conference will be held virtually. There will be no physical events at VNIT.</p>
+		<div>
+			<h2 class="uk-text-bold">Event Venue</h2>
+			<hr>
+			<p class="uk-text-meta">In view of the prevailing pandemic, this conference will be held virtually. There will be no physical events at VNIT.</p>
 		</div>
 		
 		
 	<div class="uk-margin-large-top">
-		<h3>Visvesvaraya National Institute of Technology Nagpur, Maharashtra</h3>
+		<h3 class="uk-link-heading">
+			<a href="https://vnit.ac.in/">Visvesvaraya National Institute of Technology Nagpur, Maharashtra</a>
+		</h3>
 		<p>
 			Visvesvaraya National Institute of Technology, Nagpur is
 one of the thirty-one National Institutes of Technology in the
@@ -656,11 +778,9 @@ amalgamating the State Govt. Engineering College
 functioning at Nagpur since July 1956. In the meeting held
 in October 1962, the Governing Board of the College
 resolved to name it after the eminent engineer, planner, and
-statesman of the country Sir M. Visvesvaraya. 
+statesman of the country, <a href="https://en.wikipedia.org/wiki/M._Visvesvaraya" target="_blank">Sir M. Visvesvaraya</a>. 
 		</p>
 	</div>
-
-
 	</div>
 </div>
 
@@ -670,25 +790,69 @@ statesman of the country Sir M. Visvesvaraya.
 <!-- Sponsors Section -->
 <div id="supporters" class="uk-section uk-section-muted uk-margin">
 	<div class="uk-container uk-text-center">
-		<div><h2>Sponsors</h2></div>
-		
 		<div>
-			<p class="uk-text-large">ACM India Institutional Platinum Partners</p>
+			<h2 class="uk-text-bold">Sponsors</h2>
 		</div>
-		<div class="uk-column-1-4">
-			<p><img src="./images/icertis-logo.jpg" class="" alt=""></p>
-			<p><img src="./images/persistent-logo.jpg" class="" alt=""></p>
-			<p><img src="./images/tcs.jpg" class="" alt=""></p>
-			<p><img src="./images/google-logo.png" class="" alt=""></p>
+		<hr>
+		<div>
+			<h3>ACM India Institutional Platinum Partners</h3>
 		</div>
-
-		<div class="uk-margin-medium-top">
-			<p class="uk-text-large">ACM India Institutional Silver Partners</p>
+		<div class="uk-child-width-1-4@s uk-grid-match" uk-grid>
 			<div>
-				<img src="./images/cisco-logo.jpg" alt="">
+				<div class="uk-card uk-card-default uk-card-body">
+					<br>
+					<br>
+					<img src="./images/icertis-logo.jpg" class="" alt="">
+				</div>
+			</div>
+			<div>
+				<div class="uk-card uk-card-default uk-card-body">
+					<br>
+					<img src="./images/persistent-logo.jpg" class="" alt="">
+				</div>
+			</div>
+			<div>
+				<div class="uk-card uk-card-default uk-card-body">
+					<br>
+					<img src="./images/tcs.jpg" class="" alt="">
+				</div>
+			</div>
+			<div>
+				<div class="uk-card uk-card-default uk-card-body">
+					<br>
+					<br>
+					<img src="./images/google-logo.png" class="" alt="">
+				</div>
 			</div>
 		</div>
 
+		<div class="uk-margin-medium-top">
+			<h3>ACM India Institutional Silver Partner</h3>
+			<div class="uk-flex uk-flex-center">
+				<div>
+					<div></div>
+					<div class="uk-card uk-card-default uk-card-body">
+						<br>
+						<img src="./images/cisco-logo.jpg" class="" alt="">
+					</div>
+					<div></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="uk-margin-medium-top">
+			<h3>In collaboration with</h3>
+			<div class="uk-flex uk-flex-center">
+				<div>
+					<div></div>
+					<div class="uk-card uk-card-default uk-card-body">
+						<br>
+						<img src="./images/vnit.jpg" class="" alt="">
+					</div>
+					<div></div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 </div>
@@ -698,32 +862,18 @@ statesman of the country Sir M. Visvesvaraya.
 <!-- Sponsors section end -->
 
 
-
-<!-- Host Section -->
-
-<div id="host" class="uk-section uk-section-muted uk-margin">
-	<div class="uk-container uk-text-center">
-		<div><h2>In Collaboration With</h2></div>
-		<div class="uk-margin-large-top">
-			<a href="https://vnit.ac.in/" target="_blank" rel="noopener">
-                <img src="./images/vnit.jpg" alt="">
-            </a>
-		</div>
-
-	</div>
-</div>
-
-
-
 <!-- Host Section end -->
 
 
 
 <!-- Contact us Section -->
 
-<div id="contact" class="uk-section uk-section-muted uk-margin">
+<div id="contact" class="uk-section uk-section-medium uk-section-muted uk-margin">
 	<div class="uk-container uk-text-center">
-		<div><h2>Contact Us</h2></div>
+		<div>
+			<h2 class="uk-text-bold">Contact Us</h2>
+			<hr>
+		</div>
 
 		<p class="uk-margin-large-top uk-text-bold">Email</p>
 		<p><a href="mailto:ComputeGoa2019@gmail.com" target="_blank">acmcompute2020@gmail.com</a></p>
@@ -739,14 +889,23 @@ statesman of the country Sir M. Visvesvaraya.
 <!-- Contact us Section end -->
 
 <!--Footer-->
-  <footer id="footer" class="uk-text-center uk-text-small uk-margin-top uk-section uk-section-xsmall uk-section-secondary">   
-      <div class="copyright">
-        © Copyright <strong>ACM India</strong>
-      </div>
-      <div class="">
-      	Created with
-        <a href="https://getuikit.com/">UIkit</a>
-      </div>
+  <footer id="footer" class="uk-text-center uk-text-small uk-section uk-section-xsmall uk-section-secondary">   
+	<div class="uk-child-width-1-2@m" uk-grid>
+		<div>
+			<p class="uk-margin-left uk-text-left">
+				© Copyright <strong>ACM India</strong>
+			</p>
+		</div>
+		<div>
+			<p class="uk-margin-right uk-text-right">
+				<a href="https://getuikit.com/" class="uk-link-reset"> 
+					<span uk-icon="icon: uikit; ratio: 1"> Created with  </span>
+					UIkit
+				</a>
+			</p>
+		</div>
+		
+	</div>  
   </footer>
 
   <!-- #footer -->

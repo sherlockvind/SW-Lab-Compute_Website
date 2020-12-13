@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Compute 2020</title>
+        <meta charset="utf-8">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'main/uikit/css/uikit.min.css' %}" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="{% static 'main/uikit/js/uikit.min.js' %}"></script>
+        <script src="{% static 'main/uikit/js/uikit-icons.min.js' %}"></script>
+    </head>
+<body onload="checkRegistrationStatus({{ registration_status }})">
+
+<!-- navigation bar -->
+<header class="uk-section-secondary uk-section-xsmall uk-light" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky" uk-grid> 
+   	<div class="uk-width-expand uk-padding-remove">
+		<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+			<div class="uk-navbar-left">
+				<div class="uk-navbar-item uk-text-center uk-text-middle uk-margin-small-top">
+					<a href="#"><img src="{% static 'main/images/acm-logo.png' %}" width="50" alt="" title="">
+					<p class="uk-text-bold">Compute<span>2020</span></p></a>
+				</div>
+			</div>
+			<div class="uk-navbar-right">
+				<ul class="uk-navbar-nav uk-visible@m">
+					<li><a href="http://www.acm-compute.in/2020/">Previous Conferences</a>
+						<div class="uk-navbar-dropdown" uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+							<ul class="uk-nav uk-navbar-dropdown-nav">
+								<li><a href=""><button class="uk-button uk-button-secondary uk-border-rounded">2018</button></a></li>
+								<li class="uk-nav-divider"></li>
+								<li><a href=""><button class="uk-button uk-button-secondary uk-border-rounded">2019</button></a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#important-dates">Important Dates</a></li>
+					<!--  <li><a href="#speakers">Speakers</a></li> -->
+					<!-- <li><a href="">Committee</a></li>							 -->
+					<li><a href="#workshop">Workshop</a></li>
+					<li><a href="#schedule">Schedule</a></li>
+					<li><a href="#register">Registration</a></li>
+					<li><a href="#venue">Calls</a>
+						<div class="uk-navbar-dropdown" uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+							<ul class="uk-nav uk-navbar-dropdown-nav">
+								<li><a href=""><button class="uk-button uk-button-secondary uk-border-rounded">Area of Focus</button></a></li>
+								<li class="uk-nav-divider"></li>
+								<li><a href=""><button class="uk-button uk-button-secondary uk-border-rounded">Abstract Format and Submission</button></a></li>
+							</ul>
+					<!--   <a href="./local_files/COMPUTE19Brochure.pdf" target="_blank" rel="noopener">Download Call for abstract
+							brochure</a>
+						<a href="./pages/accepted-papers.html">Accepted Papers</a> -->
+						</div>
+					</li>
+					<li><a href="#venue">Venue </a></li>
+					<li><a href="#supporters">Sponsors</a></li>
+					<li><a href="#contact">Contact</a></li>
+				<!--    <li class="buy-tickets"><a href="./pages/registration.html">Register</a></li> -->
+				</ul>
+			</div>
+		</nav>
+    </div>   
+	<div class="uk-hidden@m uk-width-auto uk-padding-remove uk-margin-right uk-align-center ">
+		<a href="#offcanvas-usage" uk-toggle><span uk-navbar-toggle-icon></span></a>
+	</div> 
+</header>
+      
+
+
+<!-- navigation bar end -->
+
+{% block content %}
+
+{% endblock %}
+
+<!--Footer-->
+  <footer id="footer" class="uk-text-center uk-text-small uk-section uk-section-xsmall uk-section-secondary">   
+	<div class="uk-child-width-1-2@m" uk-grid>
+		<div>
+			<p class="uk-margin-left uk-text-left">
+				© Copyright <strong>ACM India</strong>
+			</p>
+		</div>
+		<div>
+			<p class="uk-margin-right uk-text-right">
+				<a href="https://getuikit.com/" class="uk-link-reset"> 
+					<span uk-icon="icon: uikit; ratio: 1"> Created with  </span>
+					UIkit
+				</a>
+			</p>
+		</div>
+		
+	</div>  
+  </footer>
+
+  <!-- #footer -->
+
+
+
+<div id="offcanvas-usage" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+        <ul class="uk-nav uk-nav-default">
+	          <li class="uk-parent"><a href="">Previous Conferences</a>
+	            	<ul class="uk-nav-sub">
+	              		<li><a href="">2018</a></li>
+	              		<li><a href="">2019</a></li>
+	              	</ul>
+	          </li>
+
+	          <li><a href="#intro">Home</a></li>
+	          <li><a href="#important-dates">Important Dates</a></li>
+	        <!--  <li><a href="#speakers">Speakers</a></li> -->
+			  <li><a href="">Committee</a></li>
+															
+			  <li><a href="#workshop">Workshop</a></li>
+	          <li><a href="#schedule">Schedule</a></li>
+		      <li><a href="#register">Registration</a></li>
+
+	          <li class="uk-parent"><a href="#venue">Calls</a>
+	            	<ul class="uk-nav-sub">
+	              		<li><a href="">Area of Focus</a></li>
+	              		<li><a href="">Abstract Format and Submission</a></li>
+	              	</ul>
+	           <!--   <a href="./local_files/COMPUTE19Brochure.pdf" target="_blank" rel="noopener">Download Call for abstract
+	                brochure</a>	              <a href="./pages/accepted-papers.html">Accepted Papers</a> -->
+	          </li>
+
+	          <li><a href="#venue">Venue </a></li>
+	          <li><a href="#supporters">Sponsors</a></li>
+	          <li><a href="#contact">Contact</a></li>
+	      <!--    <li class="buy-tickets"><a href="./pages/registration.html">Register</a></li> -->
+        </ul>
+
+    </div>
+</div>
+
+		<!-- For form validation -->
+		<script>
+			var isFormAcceptable = 1;
+			
+			function checkRegistrationStatus(status)
+			{
+				if ( status )
+					alert("You have been registered successfully!");
+			
+			}
+			
+			function validateName()
+			{
+				var name = document.getElementById("name");
+				var non_whitespace_name = name.value.replace(/\s/g, '');
+				var return_value = false;
+				
+				if ( non_whitespace_name.trim().length >= 5 )
+				{
+					name.className = "uk-input uk-form-success";
+					name.title = "It's acceptable!";
+					return_value = 1;
+				}
+				else
+				{
+					name.className = "uk-input uk-form-danger";
+					name.title = "Your name needs to have atleast 5 non-whitespace charachters";
+					return_value = 0;
+				}
+
+				isFormAcceptable = isFormAcceptable & return_value;
+				
+				return return_value;
+			}
+		
+			function checkPasswordValidity()
+			{
+				var password = document.getElementById("password");
+				let regex = /.*([a-z]+[A-Z]+[0-9]+)|([A-Z]+[0-9]+[a-z]+)|([0-9]+[a-z]+[A-Z]+)|([a-z]+[0-9]+[A-Z]+)|([0-9]+[A-Z]+[a-z]+)|([A-Z]+[a-z]+[0-9]+).*/;
+			
+				if ( password.value.match(regex) != null && password.value.length >= 5 )
+				{
+					password.className = "uk-input uk-form-success";
+					password.title = "Your password looks good!";
+					return_value = 1;
+				}
+				else
+				{
+					password.className = "uk-input uk-form-danger";
+					password.title = "Ensure that your password contains atleast 5 charachters containing atleast 1 capital letter, 1 small letter and 1 digit.";
+					return_value = 0;
+				}
+
+				isFormAcceptable = isFormAcceptable & return_value;
+				
+				return return_value;		
+			}
+		
+			function checkConfirmPassword()
+			{
+				var password = document.getElementById("password");
+				var confirm_password = document.getElementById("confirm_password");
+			
+				if ( password.value == confirm_password.value )
+				{
+					confirm_password.className = "uk-input uk-form-success";
+					confirm_password.title = "Sweet!";
+					return_value = 1;
+				}
+				else
+				{
+					confirm_password.className = "uk-input uk-form-danger";
+					confirm_password.title = "Your passwords don't match. Please retry.";
+					return_value = 0;
+				}
+				
+				isFormAcceptable = isFormAcceptable & return_value;
+				
+				return return_value;
+			}
+			
+			function checkFileType()
+			{
+				let regex = /(\.pdf)$/;
+				var file = document.getElementById("id_proof");
+				
+				if ( file.value.match(regex) != null )
+				{
+					file.className = "uk-input uk-form-success";
+					file.title = "This file is acceptable!";
+					return_value = 1;
+				}
+				else
+				{
+					file.className = "uk-input uk-form-danger";
+					file.title = "Only PDF files are acceptable!";
+					return_value = 0;
+				}
+				
+				isFormAcceptable = isFormAcceptable & return_value;
+				
+				return return_value; 
+			}
+		
+			function checkFormValidity()
+			{
+				if (isForAcceptable)
+					return true;
+				else
+					return false;
+			}
+		
+		</script>
+
+</body>
+
+</html>
